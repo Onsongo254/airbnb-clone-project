@@ -64,3 +64,60 @@ Maintains clear, comprehensive documentation for the codebase, APIs, CI/CD pipel
 ### 🧪 QA Engineer (Optional Role)
 Ensures the quality of the application through test planning, execution, and reporting. This role covers writing unit, integration, and end-to-end tests, using tools to automate regression testing, and working closely with developers to identify bugs early in the lifecycle.
 
+## 🗄️ Database Design
+
+The project uses a relational database (MySQL) to model real-world relationships between users, properties, bookings, reviews, and payments. Below are the key entities and their core fields:
+
+### 🧑 Users
+- `id`: Unique identifier  
+- `name`: Full name of the user  
+- `email`: Unique email address  
+- `password`: Hashed password  
+- `role`: Host or Guest  
+
+**Relations**:  
+- A user can list multiple properties (as a host)  
+- A user can make multiple bookings (as a guest)  
+- A user can leave multiple reviews  
+
+### 🏠 Properties
+- `id`: Unique identifier  
+- `title`: Property title  
+- `description`: Detailed info  
+- `location`: City, state, country  
+- `host_id`: References `Users.id`  
+
+**Relations**:  
+- A property belongs to one user (host)  
+- A property can have many bookings and reviews  
+
+### 📅 Bookings
+- `id`: Unique identifier  
+- `user_id`: References `Users.id`  
+- `property_id`: References `Properties.id`  
+- `check_in`: Start date  
+- `check_out`: End date  
+
+**Relations**:  
+- A booking belongs to one user and one property  
+- Each booking can have a corresponding payment  
+
+### ⭐ Reviews
+- `id`: Unique identifier  
+- `user_id`: References `Users.id`  
+- `property_id`: References `Properties.id`  
+- `rating`: Numeric score  
+- `comment`: User feedback  
+
+**Relations**:  
+- A review is made by a user for a specific property  
+
+### 💳 Payments
+- `id`: Unique identifier  
+- `booking_id`: References `Bookings.id`  
+- `amount`: Total payment  
+- `status`: Paid, Pending, Failed  
+- `payment_date`: Timestamp  
+
+**Relations**:  
+- A payment is tied to one booking  
