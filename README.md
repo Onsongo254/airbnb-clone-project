@@ -121,3 +121,31 @@ The project uses a relational database (MySQL) to model real-world relationships
 
 **Relations**:  
 - A payment is tied to one booking  
+
+## 🧩 Feature Breakdown
+
+The Airbnb Clone project is composed of several core features that simulate the functionality of a real-world booking platform. Each feature is designed to provide a seamless and secure user experience while reflecting modern software design patterns.
+
+### 👤 User Management
+Users can register, log in, and manage their profiles securely. This feature supports role-based access (hosts and guests), enabling personalized dashboards and access control.
+
+### 🏘️ Property Management
+Hosts can create, edit, and delete property listings, including uploading images, setting availability, and adding descriptions. This feature allows hosts to showcase their spaces and make them available for booking.
+
+### 📅 Booking System
+Guests can browse properties and create bookings based on availability. The system checks for date conflicts, calculates prices, and ensures secure booking transactions.
+
+### 💳 Payment Processing
+Integrates a secure payment system where guests can pay for bookings and hosts can track earnings. Payment statuses (e.g., Paid, Pending) are managed and linked to bookings.
+
+### ⭐ Review System
+Guests can leave ratings and reviews after a stay, which helps build trust and reputation for hosts and properties. Reviews include a score and optional comment visible on the property listing.
+
+### 🔒 API Security & Authentication
+JWT-based authentication ensures that only authorized users can access or modify data. This feature protects user data, enforces permissions, and guards against common security threats.
+
+### ⚙️ CI/CD Integration
+Automated pipelines (via GitHub Actions) handle code testing, building, and deployment. This ensures faster development cycles and reduces manual errors during deployment.
+
+### 📄 Documentation & Planning
+Includes well-maintained README files, API documentation, and database design plans. Clear documentation supports team collaboration and eases onboarding for new developers.
