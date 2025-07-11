@@ -64,6 +64,3 @@ Maintains clear, comprehensive documentation for the codebase, APIs, CI/CD pipel
 ### 🧪 QA Engineer (Optional Role)
 Ensures the quality of the application through test planning, execution, and reporting. This role covers writing unit, integration, and end-to-end tests, using tools to automate regression testing, and working closely with developers to identify bugs early in the lifecycle.
 
----
-
-Each role contributes to the success of the project by bringing specialized expertise, ensuring a collaborative workflow, and maintaining high-quality standards throughout the software development lifecycle.
