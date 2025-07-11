@@ -38,8 +38,9 @@ To get started, clone the repository and follow the setup instructions (to be ad
 ```bash
 git https://github.com/Onsongo254/airbnb-clone-project.git
 cd airbnb-clone
-
+```
 ## 👥 Team Roles
+
 Effective collaboration is key to delivering scalable, secure, and high-performing software. Below is an overview of the roles involved in this Airbnb Clone Project and their responsibilities.
 
 ### 🧠 Project Manager (PM)
@@ -55,7 +56,7 @@ Designs and manages the relational database schema. The DBA defines entities, at
 Handles CI/CD pipeline implementation, infrastructure automation, and containerization. The DevOps Engineer ensures seamless deployments, monitors application health, and automates repetitive tasks to accelerate development workflows. Tools include Docker, GitHub Actions, and monitoring platforms.
 
 ### 🔒 Security Specialist
-Focuses on application and data security. This role includes implementing authentication/authorization mechanisms, enforcing API permissions, managing encryption, and conducting security audits to identify and fix vulnerabilities.
+Focuses on application and data security. This role includes implementing authentication/authorization mechanisms (e.g., JWT), enforcing API permissions, managing encryption, and conducting security audits to identify and fix vulnerabilities.
 
 ### 📄 Technical Writer / Documentation Lead
 Maintains clear, comprehensive documentation for the codebase, APIs, CI/CD pipelines, and setup instructions. The writer ensures that new team members and external contributors can understand and engage with the project with minimal onboarding time.
@@ -63,3 +64,6 @@ Maintains clear, comprehensive documentation for the codebase, APIs, CI/CD pipel
 ### 🧪 QA Engineer (Optional Role)
 Ensures the quality of the application through test planning, execution, and reporting. This role covers writing unit, integration, and end-to-end tests, using tools to automate regression testing, and working closely with developers to identify bugs early in the lifecycle.
 
+---
+
+Each role contributes to the success of the project by bringing specialized expertise, ensuring a collaborative workflow, and maintaining high-quality standards throughout the software development lifecycle.
