@@ -38,3 +38,28 @@ To get started, clone the repository and follow the setup instructions (to be ad
 ```bash
 git https://github.com/Onsongo254/airbnb-clone-project.git
 cd airbnb-clone
+
+## 👥 Team Roles
+Effective collaboration is key to delivering scalable, secure, and high-performing software. Below is an overview of the roles involved in this Airbnb Clone Project and their responsibilities.
+
+### 🧠 Project Manager (PM)
+The Project Manager oversees the project timeline, goals, and deliverables. They facilitate communication across the team, ensure alignment with requirements, and remove roadblocks to keep the team on track. The PM also coordinates sprints and prioritizes tasks based on stakeholder feedback.
+
+### 👨‍💻 Backend Developer
+Responsible for building and maintaining the server-side application logic. This includes designing RESTful and GraphQL APIs, integrating external services, and implementing business logic. Backend developers also ensure that security standards and performance optimizations are upheld.
+
+### 🗄️ Database Administrator (DBA)
+Designs and manages the relational database schema. The DBA defines entities, attributes, and relationships while ensuring data consistency, normalization, and performance optimization. They are also responsible for backups, migrations, and securing sensitive information stored in the database.
+
+### 🔐 DevOps Engineer
+Handles CI/CD pipeline implementation, infrastructure automation, and containerization. The DevOps Engineer ensures seamless deployments, monitors application health, and automates repetitive tasks to accelerate development workflows. Tools include Docker, GitHub Actions, and monitoring platforms.
+
+### 🔒 Security Specialist
+Focuses on application and data security. This role includes implementing authentication/authorization mechanisms, enforcing API permissions, managing encryption, and conducting security audits to identify and fix vulnerabilities.
+
+### 📄 Technical Writer / Documentation Lead
+Maintains clear, comprehensive documentation for the codebase, APIs, CI/CD pipelines, and setup instructions. The writer ensures that new team members and external contributors can understand and engage with the project with minimal onboarding time.
+
+### 🧪 QA Engineer (Optional Role)
+Ensures the quality of the application through test planning, execution, and reporting. This role covers writing unit, integration, and end-to-end tests, using tools to automate regression testing, and working closely with developers to identify bugs early in the lifecycle.
+
