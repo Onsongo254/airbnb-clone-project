@@ -36,5 +36,5 @@ The **Airbnb Clone Project** is a real-world, full-stack development initiative 
 To get started, clone the repository and follow the setup instructions (to be added soon).
 
 ```bash
-git clone https://github.com/your-username/airbnb-clone.git
+git https://github.com/Onsongo254/airbnb-clone-project.git
 cd airbnb-clone
