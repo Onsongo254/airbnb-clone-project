@@ -11,7 +11,7 @@ The **Airbnb Clone Project** is a real-world, full-stack development initiative 
 - Integrate Continuous Integration/Continuous Deployment (CI/CD) for seamless delivery.
 - Apply advanced security practices to protect user data and system integrity.
 
-## Tech Stack
+## Technology Stack
 
 ### 👨‍💻 Backend
 - **Django**: Primary backend web framework for building APIs and server-side logic.
