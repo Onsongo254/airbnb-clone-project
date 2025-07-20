@@ -177,3 +177,16 @@ Strict input validation is implemented to prevent SQL injection, XSS, and other 
 - **Securing Payments**: Payment transactions involve sensitive financial data that must be protected to prevent fraud and unauthorized access.
 - **Maintaining Platform Integrity**: Proper authentication and authorization prevent malicious users from altering, deleting, or accessing resources they shouldn't.
 - **Ensuring Availability**: Rate limiting and secure coding practices help defend against DDoS attacks and application crashes, keeping the platform reliable and responsive.
+
+## 🚀 CI/CD Pipeline
+
+**CI/CD (Continuous Integration and Continuous Deployment)** pipelines automate the process of building, testing, and deploying applications. In this project, CI/CD ensures that every code change is automatically verified and deployed in a consistent and reliable way.
+
+### Why CI/CD is Important
+CI/CD reduces manual effort, catches bugs early, and speeds up the release cycle. By integrating automated testing, linting, and deployment into the workflow, the project maintains high code quality, improves team collaboration, and minimizes downtime.
+
+### Tools Used
+- **GitHub Actions**: Automates tasks such as running tests, checking code quality, and deploying to servers or cloud platforms on every push or pull request.
+- **Docker**: Ensures consistent environments across development, testing, and production by containerizing the application.
+- **(Optional) Heroku, AWS, or DigitalOcean**: Can be used as deployment platforms for staging and production environments.
+
