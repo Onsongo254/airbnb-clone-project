@@ -149,3 +149,31 @@ Automated pipelines (via GitHub Actions) handle code testing, building, and depl
 
 ### 📄 Documentation & Planning
 Includes well-maintained README files, API documentation, and database design plans. Clear documentation supports team collaboration and eases onboarding for new developers.
+
+## 🔐 API Security
+
+Securing backend APIs is critical to protecting user data, financial transactions, and maintaining the integrity of the platform. The Airbnb Clone project incorporates the following key security measures:
+
+### ✅ Authentication
+We use **JWT (JSON Web Tokens)** to authenticate users. Each user must log in to receive a token, which is required for accessing protected endpoints. This ensures that only verified users can interact with personal data and sensitive features.
+
+### 🔓 Authorization
+Role-based access control is enforced to distinguish between guests and hosts. For example, only hosts can manage property listings, and only guests can book properties. This prevents unauthorized actions and preserves data ownership boundaries.
+
+### 🚫 Rate Limiting
+API rate limiting is applied to restrict the number of requests a user can make in a given time frame. This protects the system from abuse, brute-force attacks, and ensures fair usage across users.
+
+### 🔒 Data Encryption
+Sensitive data such as passwords are hashed using secure algorithms (e.g., bcrypt). All communication between clients and the server is encrypted via HTTPS to prevent man-in-the-middle attacks.
+
+### 🛡️ Input Validation & Error Handling
+Strict input validation is implemented to prevent SQL injection, XSS, and other common attack vectors. Errors are handled gracefully without exposing internal logic or stack traces to users.
+
+---
+
+### Why Security Matters
+
+- **Protecting User Data**: Personally identifiable information (PII) like names, emails, and passwords must be safeguarded to maintain user trust and comply with data protection regulations.
+- **Securing Payments**: Payment transactions involve sensitive financial data that must be protected to prevent fraud and unauthorized access.
+- **Maintaining Platform Integrity**: Proper authentication and authorization prevent malicious users from altering, deleting, or accessing resources they shouldn't.
+- **Ensuring Availability**: Rate limiting and secure coding practices help defend against DDoS attacks and application crashes, keeping the platform reliable and responsive.
